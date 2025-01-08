@@ -1,0 +1,569 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fullContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 96px;
+}
+
+.navContainer {
+    display: flex;
+    padding: 22px 208px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarMiniContainer {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navBarImg{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navBarList {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navBarList li {
+    text-decoration: none;
+    list-style: none;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.navBarButton {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navButton {
+    display: flex;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+}
+
+.buttonWhite {
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.buttonPurple {
+    background: #7F56D9;
+    border-style: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1024px;
+    gap: 40px;
+}
+
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.dashBoardContainer {
+    display: flex;
+    padding: 8px 12px 8px 8px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+}
+
+.newButton {
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    border: 1px solid #D5D7DA;
+}
+
+.arrowContainer {
+    display: flex;
+    gap: 4px;
+}
+
+.dashBoardText {
+    color: #414651;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.dashBoardTextCenter {
+    text-align: center;
+}
+
+.mainHeaderText {
+    align-self: stretch;
+    color: #181D27;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px
+}
+
+.headerParagraph {
+    display: flex;
+    align-self: center;
+}
+
+.headerContainerText {
+    align-self: stretch;
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 768px;   
+}
+
+.demoContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.demoPlay {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #D5D7DA;
+    width: 131px;
+}
+
+.demoButton {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #7F56D9;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 114px;
+}
+
+.diagramContainer {
+    display: flex;
+    align-items: center;   
+    
+}
+
+.diagram {
+    width: 1024px;
+    height: 561px;
+    flex-shrink: 0;
+}
+
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 1024px;
+}
+
+.featureTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.feature {
+    align-self: stretch;
+    color: #6941C6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.secondHeaders {
+    align-self: stretch;
+    color: #181D27;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; 
+}
+
+.secondParagraph {
+    align-self: stretch;
+    color: #535862;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featureCardsContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cardContainer {
+    display: flex;
+    min-width: 320px;
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.cardTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.analyticsIcon {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+}
+
+.cardHeader {
+    align-self: stretch;
+    color: #181D27;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.cardText {
+    align-self: stretch;
+    color: #535862;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.upgradeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.upgradeTexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    width: 1024px;
+}
+
+.pricingPlanContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.pricingPlanCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+}
+
+.cardFirst {
+    display: flex;
+    padding: 32px 32px 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.cardSecond {
+    display: flex;
+    padding: 32px 32px 40px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cardThird {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+}
+
+.upgrade {
+    align-self: stretch;
+    color: #7F56D9;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+.thirdParagraph {
+    align-self: stretch;
+    color: #535862;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.planHeader {
+    align-self: stretch;
+    color: #6941C6;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.planPrice {
+    align-self: stretch;
+    color: #181D27;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.planBiling {
+    align-self: stretch;
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.listItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;    
+}
+
+.listItemText {
+    align-self: stretch;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.getStarted {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #7F56D9;
+    border-style: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px
+}
+
+.userContainer {
+    display: flex;
+    width: 1024px;
+    align-items: center;
+    border-radius: 24px;
+    background: #53389E;
+    height: 566px;
+}
+
+.renee {
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    height: 566px;
+}
+
+.userTextContainer {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex: 1 0 0;
+}
+
+.userMiniContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.userText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.rewievText { 
+    align-self: stretch;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.userNameText {
+    align-self: stretch;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.userNameJob {
+    align-self: stretch;
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerContainer {
+    display: flex;
+    padding: 22px 208px;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footerMIniContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 1040px;
+}
+
+.footerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; 
+}
+
+.footerList li {
+    list-style: none;
+    color: #535862;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.untitled {
+    color: #717680;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
